@@ -1,4 +1,8 @@
 # Databricks notebook source
+from pyspark.sql import SparkSession
+spark = SparkSession.builder \
+    .appName("Apple_Data_analysis") \
+    .getOrCreate()
 class DataSource :
     """
     Abstract Class

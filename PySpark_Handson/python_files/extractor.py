@@ -2,7 +2,7 @@
 # MAGIC %run "./reader_factory"
 
 # COMMAND ----------
-
+from reader_factory import get_data_source
 class Extractor :
     """
     Abstract Class

@@ -2,6 +2,7 @@
 # MAGIC %run "./loader_factory"
 
 # COMMAND ----------
+from loader_factory import get_sink_source
 
 class AbstractLoader :
     def __init__(self, transformDF):

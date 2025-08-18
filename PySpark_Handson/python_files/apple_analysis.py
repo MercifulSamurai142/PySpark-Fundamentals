@@ -10,6 +10,9 @@
 # MAGIC %run "./loader"
 
 # COMMAND ----------
+from transform import FirstTransformer
+from extractor import AirpodsAfterIphoneExtractor
+from loader import AirpodsAfterIphoneLoader
 
 class FirstWorkFlow :
     """
